@@ -1,16 +1,5 @@
 
 
-.divEncabezadoPadre{
-    
-    display:flex;
-    background-image: url(../recursos1/imagenes/fondo.jpg);
-    height: var(--fondo);
-    width: auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-
-}
 .divFondoImagen{
     display: flex;
     flex-direction: column;
@@ -34,19 +23,37 @@
         background-color: white;
     
         display: flex;
-        width: 100%;
-        background-position: center;
+        width: 800px;
         align-items: center;
         text-align:center;
+        margin-left: 230px;
+        margin-right: 250px;
         
-          
+        justify-content: space-between;
+
     }
     .div1 img{
         width: 20%;
         height: 100;
         
     }
-    .divCinta > img{
-    
-        width: 10%;
-        height: 80%;}
+    #fondo{
+        width: 1330px;
+        height: 500px;
+        background-image: url(../recursos1/imagenes/fondo.jpg);
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .btn{
+        margin-left: 10px;
+        background-color: transparent;          
+        border: none;
+        width: 80px;
+        color: grey;
+        height: 50px;
+    }
+    .btn:hover{
+        background-color: rgb(75, 248, 75);
+    }
